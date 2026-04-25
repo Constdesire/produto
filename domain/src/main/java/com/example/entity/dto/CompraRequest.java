@@ -1,4 +1,4 @@
-package com.example.controller.dto.request;
+package com.example.entity.dto;
 import java.util.List;
 
 public record CompraRequest(

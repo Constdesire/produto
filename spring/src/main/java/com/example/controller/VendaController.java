@@ -1,6 +1,6 @@
 package com.example.controller;
 
-import com.example.controller.dto.request.CompraRequest;
+import com.example.entity.dto.CompraRequest;
 import com.example.entity.Venda;
 import com.example.service.VendaService;
 import org.springframework.web.bind.annotation.*;

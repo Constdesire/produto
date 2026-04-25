@@ -34,7 +34,10 @@ public class ProdutoController {
 
     @PutMapping("/{id}")
     public Produto atualizar(@PathVariable String id, @RequestBody ProdutoRequest request) {
-        return service.salvar(new Produto(id, request.nome(), request.preco()));
+        return service.salvar(new Produto(
+                id,
+                request.nome(),
+                request.preco()));
     }
 
     @DeleteMapping("/{id}")
