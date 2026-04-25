@@ -5,6 +5,8 @@ import com.example.entity.Venda;
 import com.example.service.VendaService;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/vendas")
 public class VendaController {
